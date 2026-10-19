@@ -19,3 +19,11 @@ const Anno = annoCorrente();
 
 
 console.log(Eta - Anno);*/
+
+
+
+/*const classi = ['Barbaro', 'Mago', 'bardo', 'Druido'];
+
+const trovaclasse = classi.filter(classe => classe === 'Barbaro');
+
+console.log(trovaclasse);*/
