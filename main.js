@@ -1,29 +1,15 @@
-/*function mieEta() {
-    console.log(31)
+// crea 9 numeri casuali 
+const numeri = []
+
+for (let c = 1; c < - c++;) {
+    const numeriCasuale = getRandomInteger(1, 99);
+    numeri.push(numeriCasuale);
 }
 
-mieEta();*/
-
-/*function calcolaEta() {
-    return 31;
+for (const numero of numeri) {
+    document.querySelector(".grid").innerHTML += <p class="cell">${numero}</p>
 }
 
-function annoCorrente() {
-    return 2026
-}
-
-
-const Eta = calcolaEta();
-
-const Anno = annoCorrente();
-
-
-console.log(Eta - Anno);*/
-
-
-
-/*const classi = ['Barbaro', 'Mago', 'bardo', 'Druido'];
-
-const trovaclasse = classi.filter(classe => classe === 'Barbaro');
-
-console.log(trovaclasse);*/
+function getRandomInteger(min, max) {
+    return Math.floor(Math.random()) * (max - min + 1) + min;
+} 
